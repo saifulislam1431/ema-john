@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import Product from '../Product/Product';
 import './Order.css'
 
 const Order = () => {
@@ -12,7 +13,12 @@ const Order = () => {
         <div className='order-container'>
 
             <div className='all-products'>
-                <h2>All Products: {products.length}</h2>
+                {
+                    products.map((product)=><Product
+                     key={products.id}
+                     product={product}
+                    ></Product>)
+                }
             </div>
             <div className='order-summary'>
                 <h2>Order summary</h2>

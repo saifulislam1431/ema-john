@@ -1,0 +1,51 @@
+.product{
+    border: 1px solid gray;
+    border-radius: 8px;
+    width: 210px;
+    height: 483px;
+}
+.img{
+    text-align: center;
+    padding: 5px;
+
+}
+.product-img{
+    width: 200px;
+    height: 220px;
+    border-radius: 8px;
+}
+.details{
+    margin-top: 10px;
+    padding: 5px;
+}
+.pro-name{
+    font-weight: 600;
+    color: #0E161A;
+    font-size: 14px;
+    height: 50px;
+}
+.price{
+    margin-top: 10px;
+    font-weight: 550;
+    line-height: 20.4px;
+}
+.manufacture{
+    margin-top: 50px;
+}
+.rat{
+    line-height: 15px;
+    margin-top: 12px;
+    letter-spacing: 1px;
+}
+.cart-foot{
+    margin-top: 15px;
+    color: #0E161A;
+    font-weight: 600;
+    background-color: #FFE0B3;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+}
+.foot-text{
+    text-align: center;
+}
